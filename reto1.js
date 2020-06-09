@@ -53,34 +53,3 @@ const moviesU = movies.map((movie)=>{
 const moviesTotal1 = movies.map((movie) => {
   return { id: `${movie.id}`, titulo:` ${movie.titulo}` }
 })
-
-
-/**
- * Reto 2
- */
-
-const numbers = [4, 6, 10, 33, 90]
-
-// Funcion que multiplica cada numero del arreglo por dos
-// ...
-
-
-
-
-
-/**
- * Reto 3
- */
-
-const helados = [
-  { sabor: 'vainilla', color: 'amarillo' },
-  { sabor: 'aguacate', color: 'verde' },
-  { sabor: 'fresa', color: 'rojo' },
-  { sabor: 'chocolate', color: 'café' },
-  { sabor: 'pera', color: 'verde' },
-  { sabor: 'mora', color: 'morado' },
-  { sabor: 'menta', color: 'verde' },
-];
-
-// Funcion que obtiene unicamente los helados de color verde
-// ...
